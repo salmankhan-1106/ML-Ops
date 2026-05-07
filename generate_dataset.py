@@ -110,7 +110,9 @@ metadata = {
     "noise_level": noise_level,
     "rows": ROWS,
     "dataset_version": config["dataset_version"]
-}
+
+	}
+
 
 with open("dataset/metadata.json", "w") as f:
     json.dump(metadata, f, indent=4)
